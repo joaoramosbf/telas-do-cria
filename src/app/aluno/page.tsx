@@ -46,6 +46,26 @@ export default function AlunoPage() {
           o que o aluno recebe pelo WhatsApp
         </div>
 
+        {/* Apresentação */}
+        <Link href="/apresentacao/aluno" style={{ textDecoration: "none", display: "block", marginBottom: 12 }}>
+          <div style={{
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+            padding: "16px 24px", borderRadius: 10,
+            background: "#EB4200", cursor: "pointer",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <span style={{ fontSize: 18 }}>👋</span>
+              <div>
+                <div style={{ fontSize: 14, fontWeight: 700, color: "#fff" }}>apresentação do Cria</div>
+                <div style={{ fontSize: 12, color: "rgba(255,255,255,0.55)" }}>como o Cria se apresenta pro aluno no primeiro contato</div>
+              </div>
+            </div>
+            <svg width="14" height="14" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+        </Link>
+
         {/* Lista unificada */}
         <div style={{ background: "#fff", borderRadius: 12, overflow: "hidden", boxShadow: "0 1px 8px rgba(28,25,23,0.07)" }}>
           {FLUXOS.map((f, i) => (

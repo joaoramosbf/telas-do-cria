@@ -68,6 +68,18 @@ export default function Home() {
 
       {/* Lista — Personal */}
       <div style={{ background: "#EFE5D8", padding: "32px 40px", display: "flex", flexDirection: "column", gap: 2 }}>
+        <Link href="/apresentacao/personal" style={{ textDecoration: "none", display: "block", marginBottom: 10 }}>
+          <div style={{
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+            padding: "12px 16px", borderRadius: 8, background: "#1C1917", cursor: "pointer",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ fontSize: 15 }}>👋</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: "#EB4200" }}>apresentação do Cria</span>
+            </div>
+            <svg width="12" height="12" fill="none" stroke="#EB4200" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </Link>
         {PERSONAL.map((t, i) => (
           <Link key={i} href={t.href} style={{ textDecoration: "none" }}
             onMouseEnter={() => setHovP(i)}
@@ -100,6 +112,18 @@ export default function Home() {
 
       {/* Lista — Aluno */}
       <div style={{ background: "#FEE9D6", padding: "32px 40px", display: "flex", flexDirection: "column", gap: 2, borderLeft: "1px solid rgba(28,25,23,0.06)" }}>
+        <Link href="/apresentacao/aluno" style={{ textDecoration: "none", display: "block", marginBottom: 10 }}>
+          <div style={{
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+            padding: "12px 16px", borderRadius: 8, background: "#EB4200", cursor: "pointer",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ fontSize: 15 }}>👋</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: "#fff" }}>apresentação do Cria</span>
+            </div>
+            <svg width="12" height="12" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </div>
+        </Link>
         {ALUNO.map((t, i) => (
           <Link key={i} href={t.href} style={{ textDecoration: "none" }}
             onMouseEnter={() => setHovA(i)}
@@ -138,20 +162,6 @@ export default function Home() {
         padding: "16px 40px",
         display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20,
       }}>
-        <Link href="/apresentacao" style={{ textDecoration: "none" }}>
-          <div style={{
-            display: "flex", alignItems: "center", gap: 8,
-            padding: "8px 16px", borderRadius: 8,
-            background: "rgba(235,66,0,0.18)", border: "1px solid rgba(235,66,0,0.4)",
-            cursor: "pointer",
-          }}>
-            <span style={{ fontSize: 13 }}>👋</span>
-            <span style={{ fontSize: 12, fontWeight: 700, color: "#EB4200" }}>apresentação do Cria</span>
-            <svg width="12" height="12" fill="none" stroke="#EB4200" strokeWidth="2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"/>
-            </svg>
-          </div>
-        </Link>
         <span style={{ fontSize: 11, color: "rgba(255,255,255,0.25)" }}>
           cria · agente de IA pra personal trainers · R$ 97/mês
         </span>

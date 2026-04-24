@@ -46,6 +46,26 @@ export default function PersonalPage() {
           o que o personal faz pelo WhatsApp
         </div>
 
+        {/* Apresentação */}
+        <Link href="/apresentacao/personal" style={{ textDecoration: "none", display: "block", marginBottom: 12 }}>
+          <div style={{
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+            padding: "16px 24px", borderRadius: 10,
+            background: "#1C1917", cursor: "pointer",
+          }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              <span style={{ fontSize: 18 }}>👋</span>
+              <div>
+                <div style={{ fontSize: 14, fontWeight: 700, color: "#EB4200" }}>apresentação do Cria</div>
+                <div style={{ fontSize: 12, color: "rgba(255,255,255,0.35)" }}>como o Cria se apresenta pro personal no primeiro contato</div>
+              </div>
+            </div>
+            <svg width="14" height="14" fill="none" stroke="#EB4200" strokeWidth="2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+        </Link>
+
         {/* Lista unificada */}
         <div style={{ background: "#fff", borderRadius: 12, overflow: "hidden", boxShadow: "0 1px 8px rgba(28,25,23,0.07)" }}>
           {FLUXOS.map((f, i) => (
