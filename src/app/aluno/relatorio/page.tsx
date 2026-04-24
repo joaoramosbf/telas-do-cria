@@ -43,7 +43,7 @@ export default function RelatorioAlunoPage() {
           </div>
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 240 }}>
             <DateSep>domingo</DateSep>
-            <BotMsg>{`Paulo, aqui está o seu resumo da semana 17! 🎯\n\nvocê treinou 3 de 3 vezes — frequência perfeita.\n\nsua nota da semana foi 8/10 — acima da média das últimas 4 semanas (7,2).\n\no cansaço no último treino é normal — seu corpo tá respondendo ao estímulo. descanse bem hoje e você vai entrar na próxima semana recuperado.\n\ncontinue assim, tá indo muito bem! 💪`}</BotMsg>
+            <BotMsg>{`Paulo, aqui tá o seu resumo da semana 17! 🎯\n\nvocê treinou 3 de 3 vezes. frequência perfeita.\n\nsua nota da semana foi 8/10, acima da média das últimas 4 semanas (7,2).\n\no cansaço no último treino é normal, seu corpo tá respondendo ao estímulo. descanse bem hoje e você entra na próxima semana recuperado.\n\ncontinue assim, tá indo muito bem! 💪`}</BotMsg>
           </div>
         </div>
       </div>

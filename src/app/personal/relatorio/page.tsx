@@ -43,7 +43,7 @@ export default function RelatorioPersonalPage() {
           </div>
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 240 }}>
             <DateSep>domingo</DateSep>
-            <BotMsg>{`Paulo · semana 17\n\nnota do aluno: 8/10\ntreinos feitos: 3 de 3\ncomo se sentiu: bem, mas cansado no último\ndores reportadas: nenhuma\n\nAnálise: semana consistente. frequência perfeita. energia caiu no treino C — pode ajustar volume na quinta. Paulo está evoluindo bem em força de empurrar.`}</BotMsg>
+            <BotMsg>{`Paulo · semana 17\n\nnota do aluno: 8/10\ntreinos feitos: 3 de 3\ncomo se sentiu: bem, mas cansado no último\ndores reportadas: nenhuma\n\nAnálise: semana consistente. frequência perfeita. energia caiu no treino C, vale ajustar volume na quinta. Paulo tá evoluindo bem em força de empurrar.`}</BotMsg>
           </div>
         </div>
       </div>

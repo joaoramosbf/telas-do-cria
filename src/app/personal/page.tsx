@@ -4,11 +4,11 @@ import Link from "next/link"
 import { useState } from "react"
 
 const FLUXOS = [
-  { href: "/personal/fechar-aula",  emoji: "✅", label: "fechar aula",           desc: "registro completo em menos de 2 minutos — sem app, só WhatsApp" },
+  { href: "/personal/fechar-aula",  emoji: "✅", label: "fechar aula",           desc: "registro completo em menos de 2 minutos, sem app, só WhatsApp" },
   { href: "/personal/pre-aula",     emoji: "📋", label: "briefing pré-aula",     desc: "tudo que o personal precisa saber antes de entrar na sala" },
   { href: "/personal/falta",        emoji: "❌", label: "falta e reposição",     desc: "Cria avisa quando o aluno não aparece e agenda a reposição na hora" },
   { href: "/personal/financeiro",   emoji: "💰", label: "controle financeiro",   desc: "alertas automáticos de vencimento e confirmação de pagamento" },
-  { href: "/personal/cadastro",     emoji: "➕", label: "cadastrar aluno",       desc: "cadastro completo sem abrir nenhum app — só respondendo no WhatsApp" },
+  { href: "/personal/cadastro",     emoji: "➕", label: "cadastrar aluno",       desc: "cadastro completo sem abrir nenhum app, só respondendo no WhatsApp" },
   { href: "/personal/relatorio",    emoji: "📊", label: "relatório semanal",     desc: "toda semana o Cria envia o resumo de cada aluno com análise de IA" },
 ]
 

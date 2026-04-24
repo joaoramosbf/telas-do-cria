@@ -43,7 +43,7 @@ export default function CadastroPage() {
         <div style={{ fontSize: 11, fontWeight: 700, color: "#EB4200", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 6 }}>personal</div>
         <div style={{ fontSize: 28, fontWeight: 900, color: "#1C1917", letterSpacing: "-0.02em", marginBottom: 6 }}>➕ cadastrar aluno</div>
         <div style={{ fontSize: 14, color: "rgba(28,25,23,0.5)", marginBottom: 32, lineHeight: 1.5 }}>
-          cadastro completo sem abrir nenhum app — só respondendo no WhatsApp
+          cadastro completo sem abrir nenhum app, só respondendo no WhatsApp
         </div>
 
         <div style={{ background: "#fff", borderRadius: 16, overflow: "hidden", boxShadow: "0 2px 16px rgba(28,25,23,0.08)" }}>
@@ -53,7 +53,7 @@ export default function CadastroPage() {
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 320 }}>
             <DateSep>hoje</DateSep>
             <UserMsg>tenho um aluno novo</UserMsg>
-            <BotMsg>{`vamos cadastrar! vou te fazer algumas perguntas — uma de cada vez.\n\nqual o nome completo do aluno?`}</BotMsg>
+            <BotMsg>{`vamos cadastrar! vou te fazer algumas perguntas, uma de cada vez.\n\nqual o nome completo do aluno?`}</BotMsg>
             <UserMsg>Fernanda Lima</UserMsg>
             <BotMsg>{`qual o objetivo principal da Fernanda?\n\n1) hipertrofia\n2) emagrecimento\n3) força\n4) condicionamento\n5) recomposição corporal`}</BotMsg>
             <UserMsg>2</UserMsg>

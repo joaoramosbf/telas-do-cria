@@ -6,7 +6,7 @@ import { useState } from "react"
 const FLUXOS = [
   { href: "/aluno/confirmacao",  emoji: "🗓️", label: "confirmação de presença",  desc: "Cria confirma presença 2h antes da aula automaticamente" },
   { href: "/aluno/pre-aula",     emoji: "😴", label: "questionário pré-aula",    desc: "sono, energia e dores enviados pro personal antes da sessão" },
-  { href: "/aluno/feedback",     emoji: "⭐", label: "feedback semanal",         desc: "aluno avalia a semana — Cria gera o relatório automático" },
+  { href: "/aluno/feedback",     emoji: "⭐", label: "feedback semanal",         desc: "aluno avalia a semana e o Cria gera o relatório automático" },
   { href: "/aluno/relatorio",    emoji: "📈", label: "relatório da semana",      desc: "relatório personalizado com IA enviado todo domingo" },
   { href: "/aluno/treino",       emoji: "🏋️", label: "consultar treino e saldo", desc: "aluno vê o treino do dia e o saldo de aulas a qualquer hora" },
   { href: "/aluno/pagamento",    emoji: "💳", label: "lembrete de mensalidade",  desc: "lembrete automático 3 dias antes do vencimento" },

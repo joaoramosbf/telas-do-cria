@@ -55,7 +55,7 @@ export default function FinanceiroPage() {
             <BotMsg>{`Mensalidade do Rodolfo vence em 3 dias (R$ 350,00).`}</BotMsg>
             <BotMsg>{`Carlos está com 5 dias de atraso no pagamento.`}</BotMsg>
             <UserMsg>quem não pagou esse mês?</UserMsg>
-            <BotMsg>{`pendências de abril:\n\n• Carlos — venceu 19/04 — R$ 400\n• Rodolfo — vence 27/04 — R$ 350\n\ntotal em aberto: R$ 750,00`}</BotMsg>
+            <BotMsg>{`pendências de abril:\n\n• Carlos: venceu 19/04, R$ 400\n• Rodolfo: vence 27/04, R$ 350\n\ntotal em aberto: R$ 750,00`}</BotMsg>
             <UserMsg>Carlos pagou</UserMsg>
             <BotMsg>pagamento do Carlos confirmado para abril! ✅</BotMsg>
           </div>

@@ -52,11 +52,11 @@ export default function ApresentacaoAlunoPage() {
           </div>
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 400 }}>
             <DateSep>hoje</DateSep>
-            <BotMsg>{`oi, Paulo! eu sou o Cria — o assistente do seu personal aqui pelo WhatsApp. 👋`}</BotMsg>
+            <BotMsg>{`oi, Paulo! eu sou o Cria, o assistente do seu personal aqui pelo WhatsApp. 👋`}</BotMsg>
             <BotMsg>{`por aqui você consegue:\n\n🗓️ confirmar sua presença na aula\n😴 me contar como você tá antes de cada treino\n⭐ avaliar sua semana e receber seu relatório\n🏋️ consultar o treino do dia e quantas aulas ainda tem\n💳 saber quando sua mensalidade tá prestes a vencer`}</BotMsg>
             <BotMsg>pode me chamar quando precisar. to aqui 24h. 💪</BotMsg>
             <UserMsg>qual meu treino hoje?</UserMsg>
-            <BotMsg>{`treino de hoje — Paulo\n\nTreino A · Peito e Tríceps\n\nsupino reto · 4x8-10\ncrucifixo inclinado · 3x12\ntríceps corda · 3x15\ntríceps testa · 3x12`}</BotMsg>
+            <BotMsg>{`treino de hoje, Paulo\n\nTreino A · Peito e Tríceps\n\nsupino reto · 4x8-10\ncrucifixo inclinado · 3x12\ntríceps corda · 3x15\ntríceps testa · 3x12`}</BotMsg>
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ export default function FeedbackPage() {
         <div style={{ fontSize: 11, fontWeight: 700, color: "#EB4200", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 6 }}>aluno</div>
         <div style={{ fontSize: 28, fontWeight: 900, color: "#1C1917", letterSpacing: "-0.02em", marginBottom: 6 }}>⭐ feedback semanal</div>
         <div style={{ fontSize: 14, color: "rgba(28,25,23,0.5)", marginBottom: 32, lineHeight: 1.5 }}>
-          todo sábado o aluno avalia a semana — Cria gera o relatório automático
+          todo sábado o aluno avalia a semana e o Cria gera o relatório automático
         </div>
 
         <div style={{ background: "#fff", borderRadius: 16, overflow: "hidden", boxShadow: "0 2px 16px rgba(28,25,23,0.08)" }}>

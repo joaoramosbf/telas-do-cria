@@ -53,9 +53,9 @@ export default function PreAulaPage() {
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 320 }}>
             <DateSep>hoje</DateSep>
             <UserMsg>como tá o Paulo antes da aula?</UserMsg>
-            <BotMsg>{`pré-aula do Paulo respondido:\n\nsono: bom\nenergia: 8/10\ndor/incômodo: ombro esquerdo\n\nobs ativa: cuidado com ombro esq. — lesão antiga`}</BotMsg>
+            <BotMsg>{`pré-aula do Paulo respondido:\n\nsono: bom\nenergia: 8/10\ndor/incômodo: ombro esquerdo\n\nobs ativa: cuidado com ombro esq. (lesão antiga)`}</BotMsg>
             <UserMsg>quem confirmou hoje?</UserMsg>
-            <BotMsg>{`confirmações de hoje:\n\n✅ Paulo · 14:00\n✅ Maria · 16:00\n⏳ Rodolfo · 18:00 — sem resposta`}</BotMsg>
+            <BotMsg>{`confirmações de hoje:\n\n✅ Paulo · 14:00\n✅ Maria · 16:00\n⏳ Rodolfo · 18:00 sem resposta`}</BotMsg>
             <UserMsg>quantas aulas o Paulo fez esse mês?</UserMsg>
             <BotMsg>{`aulas do Paulo em abril:\n\nfeitas: 9\nrestantes: 3\npacote: 12 aulas/mês`}</BotMsg>
           </div>

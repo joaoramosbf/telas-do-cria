@@ -53,7 +53,7 @@ export default function TreinoPage() {
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 300 }}>
             <DateSep>hoje</DateSep>
             <UserMsg>qual o meu treino hoje?</UserMsg>
-            <BotMsg>{`treino de hoje — Paulo\n\nTreino A · Peito e Tríceps\n\nsupino reto · 4x8-10\ncrucifixo inclinado · 3x12\ntríceps corda · 3x15\ntríceps testa · 3x12\n\nfoco: carga progressiva no supino.\nobs: cuidado na amplitude do ombro.`}</BotMsg>
+            <BotMsg>{`treino de hoje, Paulo\n\nTreino A · Peito e Tríceps\n\nsupino reto · 4x8-10\ncrucifixo inclinado · 3x12\ntríceps corda · 3x15\ntríceps testa · 3x12\n\nfoco: carga progressiva no supino.\nobs: cuidado na amplitude do ombro.`}</BotMsg>
             <UserMsg>quantas aulas tenho esse mês?</UserMsg>
             <BotMsg>{`seu saldo em abril:\n\nfeitas: 9\nrestantes: 3\npacote: 12 aulas/mês`}</BotMsg>
           </div>

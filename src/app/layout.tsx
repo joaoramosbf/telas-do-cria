@@ -9,7 +9,7 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: "cria — galeria de telas",
+  title: "cria · galeria de telas",
   description: "o agente de IA pra personal trainers. pelo WhatsApp. R$97/mês.",
 }
 

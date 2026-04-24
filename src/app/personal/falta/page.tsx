@@ -58,7 +58,7 @@ export default function FaltaPage() {
             <UserMsg>quero marcar reposição pra ele</UserMsg>
             <BotMsg>{`reposição pro Rodolfo.\n\nqual a nova data e horário?\n(ex: sex às 09:00)`}</BotMsg>
             <UserMsg>sábado às 10h</UserMsg>
-            <BotMsg>reposição marcada — Rodolfo · sáb às 10:00 ✅</BotMsg>
+            <BotMsg>reposição marcada. Rodolfo, sáb às 10:00 ✅</BotMsg>
           </div>
         </div>
       </div>

@@ -52,8 +52,8 @@ export default function ApresentacaoPersonalPage() {
           </div>
           <div style={{ background: "#EDE0D4", padding: 12, display: "flex", flexDirection: "column", gap: 4, minHeight: 400 }}>
             <DateSep>hoje</DateSep>
-            <BotMsg>{`oi, João! eu sou o Cria — seu assistente de IA pra gestão de alunos. tudo por aqui mesmo, pelo WhatsApp. 👋`}</BotMsg>
-            <BotMsg>{`posso te ajudar com:\n\n✅ fechar aula — registro completo em 2 minutos\n📋 briefing pré-aula — sono, energia e dores de cada aluno antes de entrar na sala\n❌ falta e reposição — te aviso quando aluno não aparece e agendo a reposição na hora\n💰 controle financeiro — alertas de vencimento e quem está devendo\n➕ cadastrar aluno — cadastro completo só respondendo aqui\n📊 relatório semanal — resumo de cada aluno com análise de IA todo domingo`}</BotMsg>
+            <BotMsg>{`oi, João! eu sou o Cria, seu assistente pra gestão de alunos. tudo por aqui mesmo, pelo WhatsApp. 👋`}</BotMsg>
+            <BotMsg>{`posso te ajudar com:\n\n✅ fechar aula: registro completo em 2 minutos\n📋 briefing pré-aula: sono, energia e dores de cada aluno antes de entrar na sala\n❌ falta e reposição: te aviso quando aluno não aparece e agendo na hora\n💰 controle financeiro: alertas de vencimento e quem está devendo\n➕ cadastrar aluno: cadastro completo só respondendo aqui\n📊 relatório semanal: resumo de cada aluno com análise de IA todo domingo`}</BotMsg>
             <BotMsg>com o que posso te ajudar agora?</BotMsg>
             <UserMsg>quero fechar uma aula</UserMsg>
             <BotMsg>qual aluno foi hoje?</BotMsg>

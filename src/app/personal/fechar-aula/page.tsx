@@ -43,7 +43,7 @@ export default function FecharAulaPage() {
         <div style={{ fontSize: 11, fontWeight: 700, color: "#EB4200", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: 6 }}>personal</div>
         <div style={{ fontSize: 28, fontWeight: 900, color: "#1C1917", letterSpacing: "-0.02em", marginBottom: 6 }}>✅ fechar aula</div>
         <div style={{ fontSize: 14, color: "rgba(28,25,23,0.5)", marginBottom: 32, lineHeight: 1.5 }}>
-          registro completo em menos de 2 minutos — sem app, só WhatsApp
+          registro completo em menos de 2 minutos, sem app, só WhatsApp
         </div>
 
         <div style={{ background: "#fff", borderRadius: 16, overflow: "hidden", boxShadow: "0 2px 16px rgba(28,25,23,0.08)" }}>
