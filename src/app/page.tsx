@@ -138,22 +138,23 @@ export default function Home() {
         padding: "16px 40px",
         display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20,
       }}>
-        <span style={{ fontSize: 11, color: "rgba(255,255,255,0.25)" }}>
-          cria · agente de IA pra personal trainers · R$ 97/mês
-        </span>
         <Link href="/apresentacao" style={{ textDecoration: "none" }}>
           <div style={{
-            display: "flex", alignItems: "center", gap: 6,
+            display: "flex", alignItems: "center", gap: 8,
             padding: "8px 16px", borderRadius: 8,
             background: "rgba(235,66,0,0.18)", border: "1px solid rgba(235,66,0,0.4)",
             cursor: "pointer",
           }}>
-            <span style={{ fontSize: 12, fontWeight: 700, color: "#EB4200" }}>ver apresentação</span>
+            <span style={{ fontSize: 13 }}>👋</span>
+            <span style={{ fontSize: 12, fontWeight: 700, color: "#EB4200" }}>apresentação do Cria</span>
             <svg width="12" height="12" fill="none" stroke="#EB4200" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </div>
         </Link>
+        <span style={{ fontSize: 11, color: "rgba(255,255,255,0.25)" }}>
+          cria · agente de IA pra personal trainers · R$ 97/mês
+        </span>
       </div>
 
     </div>
