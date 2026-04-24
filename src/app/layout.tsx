@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Figtree } from "next/font/google"
 import "./globals.css"
+import { SecurityLayer } from "./_security"
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#EB4200" />
       </head>
       <body className={`${figtree.variable} font-sans`} style={{ fontFamily: "var(--font-sans)" }}>
+        <SecurityLayer />
         {children}
       </body>
     </html>
