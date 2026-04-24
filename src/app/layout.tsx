@@ -9,8 +9,8 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: "cria — telas",
-  description: "agente de IA pra personal trainers",
+  title: "cria — galeria de telas",
+  description: "o agente de IA pra personal trainers. pelo WhatsApp. R$97/mês.",
 }
 
 export const viewport = {
@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <head>
-        <meta name="theme-color" content="#25D366" />
+        <meta name="theme-color" content="#EB4200" />
       </head>
       <body className={`${figtree.variable} font-sans`} style={{ fontFamily: "var(--font-sans)" }}>
         {children}
