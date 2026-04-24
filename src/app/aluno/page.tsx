@@ -25,7 +25,7 @@ export default function AlunoPage() {
         position: "sticky", top: 0, zIndex: 100,
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 8 }}>
+          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
             <svg width="16" height="16" fill="none" stroke="rgba(255,255,255,0.5)" strokeWidth="2" viewBox="0 0 24 24">
               <path d="M19 12H5M12 5l-7 7 7 7"/>
             </svg>
@@ -38,15 +38,16 @@ export default function AlunoPage() {
         </Link>
       </div>
 
-      <div style={{ maxWidth: 720, margin: "0 auto", padding: "48px 40px" }}>
+      <div style={{ maxWidth: 680, margin: "0 auto", padding: "48px 40px" }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", color: "rgba(28,25,23,0.4)", textTransform: "uppercase", marginBottom: 8 }}>
           conversas do aluno com o Cria
         </div>
-        <div style={{ fontSize: 28, fontWeight: 900, color: "#1C1917", letterSpacing: "-0.02em", marginBottom: 40 }}>
+        <div style={{ fontSize: 28, fontWeight: 900, color: "#1C1917", letterSpacing: "-0.02em", marginBottom: 32 }}>
           o que o aluno recebe pelo WhatsApp
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+        {/* Lista unificada */}
+        <div style={{ background: "#fff", borderRadius: 12, overflow: "hidden", boxShadow: "0 1px 8px rgba(28,25,23,0.07)" }}>
           {FLUXOS.map((f, i) => (
             <Link key={i} href={f.href} style={{ textDecoration: "none" }}
               onMouseEnter={() => setHov(i)}
@@ -54,22 +55,22 @@ export default function AlunoPage() {
             >
               <div style={{
                 display: "flex", alignItems: "center", justifyContent: "space-between",
-                padding: "20px 20px", borderRadius: 8,
-                background: hov === i ? "rgba(235,66,0,0.06)" : "rgba(255,255,255,0.5)",
-                border: hov === i ? "1px solid rgba(235,66,0,0.2)" : "1px solid transparent",
-                transition: "all 0.12s", cursor: "pointer",
+                padding: "18px 24px",
+                background: hov === i ? "rgba(235,66,0,0.04)" : "#fff",
+                borderBottom: i < FLUXOS.length - 1 ? "1px solid rgba(28,25,23,0.07)" : "none",
+                transition: "background 0.12s", cursor: "pointer",
               }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
                   <span style={{ fontSize: 11, fontWeight: 700, color: hov === i ? "#EB4200" : "rgba(28,25,23,0.2)", width: 20, flexShrink: 0, transition: "color 0.12s" }}>
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span style={{ fontSize: 24, flexShrink: 0 }}>{f.emoji}</span>
+                  <span style={{ fontSize: 22, flexShrink: 0 }}>{f.emoji}</span>
                   <div>
-                    <div style={{ fontSize: 16, fontWeight: 700, color: "#1C1917", marginBottom: 3 }}>{f.label}</div>
-                    <div style={{ fontSize: 13, color: "rgba(28,25,23,0.45)", lineHeight: 1.4 }}>{f.desc}</div>
+                    <div style={{ fontSize: 15, fontWeight: 700, color: "#1C1917", marginBottom: 2 }}>{f.label}</div>
+                    <div style={{ fontSize: 12, color: "rgba(28,25,23,0.45)", lineHeight: 1.4 }}>{f.desc}</div>
                   </div>
                 </div>
-                <svg width="16" height="16" fill="none" stroke={hov === i ? "#EB4200" : "rgba(28,25,23,0.15)"} strokeWidth="2" viewBox="0 0 24 24" style={{ flexShrink: 0, transition: "stroke 0.12s" }}>
+                <svg width="14" height="14" fill="none" stroke={hov === i ? "#EB4200" : "rgba(28,25,23,0.15)"} strokeWidth="2" viewBox="0 0 24 24" style={{ flexShrink: 0, transition: "stroke 0.12s" }}>
                   <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
               </div>
