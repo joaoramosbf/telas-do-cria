@@ -1,0 +1,34 @@
+import type { Metadata } from "next"
+import { Figtree } from "next/font/google"
+import "./globals.css"
+
+const figtree = Figtree({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-sans",
+})
+
+export const metadata: Metadata = {
+  title: "cria — telas",
+  description: "agente de IA pra personal trainers",
+}
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="pt-BR">
+      <head>
+        <meta name="theme-color" content="#25D366" />
+      </head>
+      <body className={`${figtree.variable} font-sans`} style={{ fontFamily: "var(--font-sans)" }}>
+        {children}
+      </body>
+    </html>
+  )
+}
